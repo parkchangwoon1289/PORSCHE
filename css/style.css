@@ -15,6 +15,10 @@
 .mainAll{
     border-bottom: 1px solid white;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container h3:last-of-type{
     padding-bottom: 15px;
@@ -287,6 +291,10 @@ main h3{
 
 /* (360 / 390 / 428 /  768) */
 @media(max-width:768px){  
+    .mainAll{
+        justify-content: start;
+        align-items: start;
+    }
     main h1{
         font-size: calc(20px + 1.4vw);
         font-weight: 400;
